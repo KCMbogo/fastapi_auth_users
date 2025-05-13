@@ -22,3 +22,4 @@ def create_user(db: Session, user: schemas.user.UserCreate):
     db.refresh(db_user)
     return db_user  
 
+
